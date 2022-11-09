@@ -1,4 +1,5 @@
 dist/
+.npmrc
 .DS_Store
 node_modules
 /build

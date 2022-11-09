@@ -1,10 +1,11 @@
 {
-	"name": "@aviarytech/did-peer",
+	"name": "@diwala-internal/did-peer",
 	"version": "0.0.11",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"scripts": {
-		"build": "tsc"
+		"build": "tsc",
+		"artifactregistry-login": "npx google-artifactregistry-auth --repo-config=.npmrc --credential-config=.npmrc"
 	},
 	"devDependencies": {
 		"@types/node": "^18.11.9",
